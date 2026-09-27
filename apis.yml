@@ -1,23 +1,52 @@
 aid: beijingqinghangbauhiniaequipmenttechnologyco
+
 name: Beijingqinghangbauhiniaequipmenttechnologyco
-description: 'Beijingqinghangbauhiniaequipmenttechnologyco is a company surfaced via the API Evangelist
-  harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Beijingqinghangbauhiniaequipmenttechnologyco is a Chinese equipment technology firm that designs, manufactures, and supplies specialized machinery and related services. The company is listed in secondary-market harvest data and is being profiled for API Evangelist enrichment. Public information is limited, but it appears to operate within China’s equipment and technology sectors, focusing on industrial solutions and equipment manufacturing. This description provides a concise overview for identification and further API discovery efforts.'
+
 url: https://raw.githubusercontent.com/api-evangelist/beijingqinghangbauhiniaequipmenttechnologyco/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
 - Company
-apis: []
+- Equipment
+- Technology
+- Manufacturing
+- China
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
-- type: Website
-  url: https://equityzen.com/company/beijingqinghangbauhiniaequipmenttechnologyco
+
+  - type: Hosts
+    url: hosts/beijingqinghangbauhiniaequipmenttechnologyco-hosts.yml
+  - type: Vendors
+    url: vendors/beijingqinghangbauhiniaequipmenttechnologyco-vendors.yml
+  - type: DomainSecurity
+    url: security/beijingqinghangbauhiniaequipmenttechnologyco-domain-security.yml
+  - type: Website
+    url: https://equityzen.com/company/beijingqinghangbauhiniaequipmenttechnologyco
+
+apis: []
+x-enrichment:
+  date: '2026-09-27'
+  status: minimal
+  artifacts_added: 2
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
